@@ -1,14 +1,12 @@
-.crossmint-pay-button {
-    background-color: #5c6bc0;
-    color: white;
-    font-size: 16px;
-    padding: 12px 20px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
+#crossmint-transfer-form input, #crossmint-transfer-form button {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
 }
 
-.crossmint-pay-button:hover {
-    background-color: #3f51b5;
+#crossmint-transfer-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
